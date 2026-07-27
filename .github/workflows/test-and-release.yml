@@ -26,4 +26,4 @@ jobs:
       env:
         PYTHONPATH: .
       run: |
-        pytest -v tests/
+        python -m pytest -v tests/

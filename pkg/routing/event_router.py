@@ -1,4 +1,4 @@
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 from pkg.cloudevents.spec_v1 import CloudEventV1
 
 class ContentEventRouter:
