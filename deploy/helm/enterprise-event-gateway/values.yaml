@@ -1,0 +1,22 @@
+replicaCount: 3
+
+image:
+  repository: devopstrio/enterprise-event-gateway
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 8080
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1Gi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+cloudevents:
+  specVersion: "1.0"
+  dlqReplayEnabled: true

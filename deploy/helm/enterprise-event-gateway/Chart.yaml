@@ -1,0 +1,6 @@
+apiVersion: v2
+name: enterprise-event-gateway
+description: Helm chart for CNCF CloudEvents 1.0 Enterprise Event Gateway Engine
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
